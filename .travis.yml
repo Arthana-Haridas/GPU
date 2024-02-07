@@ -1,6 +1,10 @@
 os: windows
 # dist: focal
-language: python
+language: ruby
+rvm:
+- 2.5
+- 2.6
+ 
 
 # branches:
 #   only:
