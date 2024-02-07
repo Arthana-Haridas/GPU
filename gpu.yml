@@ -36,7 +36,7 @@ jobs:
       name: "with no addons"
       os: windows
       vm:
-        size: 'gpu-medium'
+        size: 'gpu-large'
       arch: 'amd64'
       script:
         - echo "No Build"
