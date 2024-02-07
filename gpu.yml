@@ -24,12 +24,11 @@ jobs:
         blender: 3.4.1
       vm:
         size: gpu-medium
-       language: python
-       python:
-         - "3.9"
-       arch: amd64
-       script:
-         - df -h
-         - lspci
-         - python hello_world.py
-
+        language: python
+        python:
+          - "3.9"
+        arch: amd64
+        script:
+          - df -h
+          - lspci
+          - python hello_world.py
